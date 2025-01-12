@@ -247,7 +247,7 @@ async function generateMusic(genre: string) {
     genres: [`${genre}`],
     moods: ['Happy'],
     themes: ['Ads & Trailers'],
-    length: 7,
+    length: 150,
     file_format: ['wav'],
     mute_stems: ['bs'],
     tempo: ['normal'],
@@ -467,7 +467,7 @@ async function main() {
         );
         break;
       case CallbackInfo.POP:
-        bot.sendMessage(chatId, 'generate your music pop...');
+        bot.sendMessage(chatId, 'Chill for a pop! crafting your 2-3 minute tune. It’s worth the wait!');
         const pop = await generateMusic('Pop');
         await bot.sendAudio(
           chatId,
@@ -482,7 +482,7 @@ async function main() {
         );
         break;
       case CallbackInfo.ROCK:
-        bot.sendMessage(chatId, 'generate your music rock...');
+        bot.sendMessage(chatId, 'Chill for a rock! crafting your 2-3 minute tune. It’s worth the wait!');
         const rock = await generateMusic('Rock');
         await bot.sendAudio(
           chatId,
@@ -497,7 +497,7 @@ async function main() {
         );
         break;
       case CallbackInfo.ELECTRONDANCE:
-        bot.sendMessage(chatId, 'generate your music electro n dance...');
+        bot.sendMessage(chatId, 'Chill for a electro n dance! crafting your 2-3 minute tune. It’s worth the wait!');
         const electrondance = await generateMusic('Electro & Dance');
         await bot.sendAudio(
           chatId,
@@ -512,7 +512,7 @@ async function main() {
         );
         break;
       case CallbackInfo.ACCOUSTIC:
-        bot.sendMessage(chatId, 'generate your music accoustic...');
+        bot.sendMessage(chatId, 'Chill for a accoustic! crafting your 2-3 minute tune. It’s worth the wait!');
         const accoustic = await generateMusic('Acoustic');
         await bot.sendAudio(
           chatId,
@@ -527,7 +527,7 @@ async function main() {
         );
         break;
       case CallbackInfo.HIPHOP:
-        bot.sendMessage(chatId, 'generate your music hip hop...');
+        bot.sendMessage(chatId, 'Chill for a hip hop! crafting your 2-3 minute tune. It’s worth the wait!');
         const hiphop = await generateMusic('Hip Hop');
         await bot.sendAudio(
           chatId,
@@ -542,7 +542,7 @@ async function main() {
         );
         break;
       case CallbackInfo.BEATS:
-        bot.sendMessage(chatId, 'generate your music beats...');
+        bot.sendMessage(chatId, 'Chill for a beats! crafting your 2-3 minute tune. It’s worth the wait!');
         const beats = await generateMusic('Beats');
         await bot.sendAudio(
           chatId,
@@ -557,7 +557,7 @@ async function main() {
         );
         break;
       case CallbackInfo.FUNK:
-        bot.sendMessage(chatId, 'generate your music funk...');
+        bot.sendMessage(chatId, 'Chill for a funk! crafting your 2-3 minute tune. It’s worth the wait!');
         const funk = await generateMusic('Funk');
         await bot.sendAudio(
           chatId,
@@ -572,7 +572,7 @@ async function main() {
         );
         break;
       case CallbackInfo.TRAP:
-        bot.sendMessage(chatId, 'generate your music trap...');
+        bot.sendMessage(chatId, 'Chill for a trap! crafting your 2-3 minute tune. It’s worth the wait!');
         const trap = await generateMusic('Trap');
         await bot.sendAudio(
           chatId,
@@ -587,7 +587,7 @@ async function main() {
         );
         break;
       case CallbackInfo.AFROBEATS:
-        bot.sendMessage(chatId, 'generate your music afrobeats...');
+        bot.sendMessage(chatId, 'Chill for a afrobeats! crafting your 2-3 minute tune. It’s worth the wait!');
         const afrobeats = await generateMusic('Afrobeats');
         await bot.sendAudio(
           chatId,
@@ -602,7 +602,7 @@ async function main() {
         );
         break;
       case CallbackInfo.ORCHESTRA:
-        bot.sendMessage(chatId, 'generate your music orchestra...');
+        bot.sendMessage(chatId, 'Chill for a orchestra! crafting your 2-3 minute tune. It’s worth the wait!');
         const orchestra = await generateMusic('Orchestra');
         await bot.sendAudio(
           chatId,
@@ -617,7 +617,7 @@ async function main() {
         );
         break;
       case CallbackInfo.DRUMNBASS:
-        bot.sendMessage(chatId, 'generate your music drum n bass...');
+        bot.sendMessage(chatId, 'Chill for a drum n bass! crafting your 2-3 minute tune. It’s worth the wait!');
         const drumnbass = await generateMusic('Drum n Bass');
         await bot.sendAudio(
           chatId,
@@ -632,7 +632,7 @@ async function main() {
         );
         break;
       case CallbackInfo.LOFIHIPHOP:
-        bot.sendMessage(chatId, 'generate your music lofi hip hop...');
+        bot.sendMessage(chatId, 'Chill for a lofi hip hop! crafting your 2-3 minute tune. It’s worth the wait!');
         const lofihiphop = await generateMusic('Lofi Hip Hop');
         await bot.sendAudio(
           chatId,
